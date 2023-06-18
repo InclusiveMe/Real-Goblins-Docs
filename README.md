@@ -142,3 +142,6 @@ Ignore Gems</h3></h2></br>
 <h4 class="has-line-data" data-line-start="180" data-line-end="183">Example usage:<br>
 <code>request(&quot;GET&quot;, &quot;https://www.google.com&quot;)</code><br>
 <strong>Possible types; “GET” / “POST” / “PATCH”</strong></p>
+
+---
+This will get fulfilled later on. - Viktors
