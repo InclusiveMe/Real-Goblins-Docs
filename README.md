@@ -111,7 +111,7 @@
 <code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></h2>
 <h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</h2>
 <p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code>
-<h3>Bool name List<br>
+<h3>Bool name List<br> // MOST ARE NOT FOR RG.
 Select All<br>
 Guest Account<br>
 External<br>
@@ -122,7 +122,7 @@ Ignore Gems</p></h3>
 <h4 class="has-line-data" data-line-start="155" data-line-end="158">Example usages:<br>
 <code>setBool(&quot;Auto Reconnect&quot;, false)</code> <strong>Bot will turn off auto reconnect.</strong>
 <code>setBool(&quot;Ignore Gems&quot;, true)</code> <strong>Bot will ignore floating gems.</strong></br>
-<h2 class="has-line-data" data-line-start="159" data-line-end="170">Raw sendPacket(s) information.<br>
+<h2 class="has-line-data" data-line-start="159" data-line-end="170">Raw sendPacket(s) information.</h2>
 <code>pkt = {}</code><br>
 <code>pkt.type --0</code><br>
 <code>pkt.flags --12</code><br>
