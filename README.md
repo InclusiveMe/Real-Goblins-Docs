@@ -1,5 +1,5 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Real_Goblins_documentaries_0"></a>Real Goblins documentaries.</h1>
-<p class="has-line-data" data-line-start="2" data-line-end="21">#Common functions.<br>
+<p class="has-line-data" data-line-start="2" data-line-end="21">Common functions.<br>
 <code>sleep(time)</code>  <strong>Example usage:</strong> <em>sleep(1000), bot will sleep for 1 second.</em><br>
 <code>wear(itemid)</code>  <strong>Example usage:</strong> <em>wear(98), bot will wear pickaxe.</em><br>
 <code>drop(itemid)</code> <strong>Example usage:</strong> <em>drop(98), will drop all pickaxes that the bot has.</em><br>
@@ -18,9 +18,9 @@
 <code>addBot(&quot;user&quot;,&quot;pass&quot;,&quot;ip:port:user:pass&quot;)</code> <strong>Adds bot to the list with proxy.</strong><br>
 <code>removeBot(&quot;user&quot;)</code> <strong>Removes bot by the name from the list.</strong><br>
 <code>findPath(x,y)</code> <strong>Example usage:</strong> <em>findPath(57, 28), bot will findPath to (58,29)</em></p>
-<p class="has-line-data" data-line-start="22" data-line-end="24">#Position image, for punch/place/wrench/move.<br>
+<p class="has-line-data" data-line-start="22" data-line-end="24">Position image, for punch/place/wrench/move.<br>
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt=""></p>
-<p class="has-line-data" data-line-start="25" data-line-end="37">#Bot information.<br>
+<p class="has-line-data" data-line-start="25" data-line-end="37">Bot information.<br>
 <code>getBot()</code> <strong>Local bot.</strong><br>
 <code>getBot(&quot;targetbotname&quot;)</code> <strong>Target bot.</strong><br>
 <code>getBot().name</code> <strong>Gets the bot name.</strong><br>
