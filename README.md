@@ -111,7 +111,7 @@
 <code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></h2>
 <h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</h2>
 <p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code>
-<h3>Bool name List
+<h3>Bool name List<br>
 Select All<br>
 Guest Account<br>
 External<br>
