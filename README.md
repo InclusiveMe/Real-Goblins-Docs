@@ -38,12 +38,12 @@
 <code>bot.status</code> <strong>Gets the bot status.</strong><br>
 <code>bot.x</code> <strong>Gets bots x position.</strong><br>
 <code>bot.y</code> <strong>Gets bots y position.</strong></p>
-<p class="has-line-data" data-line-start="45" data-line-end="46">#Example usage(1):</p>
+<h4 class="has-line-data" data-line-start="45" data-line-end="46">Example usage(1):</h4>
 <p class="has-line-data" data-line-start="47" data-line-end="51"><code>for _, bot in pairs(getBots()) do</code><br>
 <code>say(bot.name)</code><br>
 <code>sleep(4000)</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="52" data-line-end="53">#Example usage(2):</p>
+<h4 class="has-line-data" data-line-start="52" data-line-end="53">Example usage(2):</h4>
 <p class="has-line-data" data-line-start="54" data-line-end="56"><code>say(getBot().name)</code> <strong>Says local bot name.</strong><br>
 <code>say(getBot(&quot;targetbot&quot;).name)</code> <strong>Says target bot name.</strong></p>
 <h2 class="code-line" data-line-start=57 data-line-end=58 ><a id="Tile_information_57"></a>Tile information.</h2>
@@ -60,19 +60,19 @@
 <code>tile.data</code> <strong>Extra tile data, you can check the itemid inside of the vend.</strong><br>
 <code>tile.ready</code> <strong>Check if tree is ready to harvest.</strong><br>
 <code>tile.flags</code> <strong>Tile flags.</strong></p>
-<p class="has-line-data" data-line-start="75" data-line-end="76">#Example usage(1):</p>
+<h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
 <p class="has-line-data" data-line-start="77" data-line-end="82"><code>for _, tile in pairs(getTiles()) do</code><br>
 <code>if tile.fg == 242 then</code><br>
 <code>say(&quot;Found world lock at:&quot;..tile.x..&quot;,&quot;..tile.y)</code><br>
 <code>end</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="83" data-line-end="84">#Example usage(2):</p>
+<h4 class="has-line-data" data-line-start="83" data-line-end="84">Example usage(2):</h4>
 <p class="has-line-data" data-line-start="85" data-line-end="90"><code>if getTile(55,23).ready then</code><br>
 <code>say(&quot;Ready to Harvest&quot;)</code><br>
 <code>else</code><br>
 <code>say(&quot;Not ready!&quot;)</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="91" data-line-end="92">#Object information.</p>
+<h2 class="has-line-data" data-line-start="91" data-line-end="92">Object information.</h2>
 <p class="has-line-data" data-line-start="93" data-line-end="99"><code>getObjects()</code> <strong>Gets objects.</strong><br>
 <code>object.id</code> <strong>Object item id.</strong><br>
 <code>object.count</code> <strong>Object item count.</strong><br>
@@ -106,8 +106,8 @@
 <h2 class="has-line-data" data-line-start="134" data-line-end="137">Connect information.<br>
 <code>disconnect()</code> <strong>Disconnects the bot.</strong><br>
 <code>connect()</code> <strong>Connects the bot to online.</strong></p>
-<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.</h2>
-<p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all weared items the bot is wearing.</strong><br>
+<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.<br>
+<p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all weared items the bot is wearing.</strong></h2>
 <code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></p>
 <h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</p>
 <p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code><br>
