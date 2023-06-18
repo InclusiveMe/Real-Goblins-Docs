@@ -83,35 +83,35 @@
 <p class="has-line-data" data-line-start="102" data-line-end="105"><code>for _, object in pairs(getObjects()) do</code><br>
 <code>object.id</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="106" data-line-end="107">#Player information.</p>
+<h2 class="has-line-data" data-line-start="106" data-line-end="107">Player information.</h2>
 <p class="has-line-data" data-line-start="108" data-line-end="114"><code>getPlayers()</code> <strong>Gets players.</strong><br>
 <code>player.name</code> <strong>Gets player name.</strong><br>
 <code>player.netid</code> <strong>Gets player netid.</strong><br>
 <code>player.userid</code> <strong>Gets player user id(UID).</strong><br>
 <code>player.country</code> <strong>Gets player country.</strong><br>
 <code>player.x / player.y</code> <strong>On getPlayers() function</strong></p>
-<h4 class="has-line-data" data-line-start="115" data-line-end="116">Example usage:</p>
+<h4 class="has-line-data" data-line-start="115" data-line-end="116">Example usage:</h4>
 <p class="has-line-data" data-line-start="117" data-line-end="120"><code>for _, player in pairs(getPlayers()) do</code><br>
 <code>players.name</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="121" data-line-end="122">#Inventory information.</p>
+<h2 class="has-line-data" data-line-start="121" data-line-end="122">Inventory information.</h2>
 <p class="has-line-data" data-line-start="123" data-line-end="127"><code>getInventory()</code> <strong>Gets inventory.</strong><br>
 <code>item.name</code> <strong>Gets item name.</strong><br>
 <code>item.id</code> <strong>Gets item id.</strong><br>
 <code>item.count</code> <strong>Gets item count.</strong></p>
-<h4 class="has-line-data" data-line-start="128" data-line-end="129">Example usage:</p>
+<h4 class="has-line-data" data-line-start="128" data-line-end="129">Example usage:</h4>
 <p class="has-line-data" data-line-start="130" data-line-end="133"><code>for _, item in pairs(getInventory()) do</code><br>
 <code>item.id</code><br>
 <code>end</code></p>
 <h2 class="has-line-data" data-line-start="134" data-line-end="137">Connect information.<br>
 <code>disconnect()</code> <strong>Disconnects the bot.</strong><br>
 <code>connect()</code> <strong>Connects the bot to online.</strong></p>
-<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.</p>
+<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.</h2>
 <p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all weared items the bot is wearing.</strong><br>
 <code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></p>
 <h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</p>
 <p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code><br>
-#Bool name List<br>
+<h3></h3>Bool name List</h3>
 Select All<br>
 Guest Account<br>
 External<br>
