@@ -79,7 +79,7 @@
 <code>object.x</code> <strong>Object x position.</strong><br>
 <code>object.y</code> <strong>Object y position.</strong><br>
 <code>object.oid</code> <strong>Object id.</strong></p>
-<p class="has-line-data" data-line-start="100" data-line-end="101">##Example usage:</p>
+<h4 class="has-line-data" data-line-start="100" data-line-end="101">Example usage:</h4>
 <p class="has-line-data" data-line-start="102" data-line-end="105"><code>for _, object in pairs(getObjects()) do</code><br>
 <code>object.id</code><br>
 <code>end</code></p>
