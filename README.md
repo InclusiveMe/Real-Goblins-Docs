@@ -1,5 +1,5 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Real_Goblins_documentaries_0"></a>Real Goblins documentaries.</h1>
-<p class="has-line-data" data-line-start="2" data-line-end="21">##Common functions.<br>
+<p class="has-line-data" data-line-start="2" data-line-end="21">#Common functions.<br>
 <code>sleep(time)</code>  <strong>Example usage:</strong> <em>sleep(1000), bot will sleep for 1 second.</em><br>
 <code>wear(itemid)</code>  <strong>Example usage:</strong> <em>wear(98), bot will wear pickaxe.</em><br>
 <code>drop(itemid)</code> <strong>Example usage:</strong> <em>drop(98), will drop all pickaxes that the bot has.</em><br>
@@ -18,9 +18,9 @@
 <code>addBot(&quot;user&quot;,&quot;pass&quot;,&quot;ip:port:user:pass&quot;)</code> <strong>Adds bot to the list with proxy.</strong><br>
 <code>removeBot(&quot;user&quot;)</code> <strong>Removes bot by the name from the list.</strong><br>
 <code>findPath(x,y)</code> <strong>Example usage:</strong> <em>findPath(57, 28), bot will findPath to (58,29)</em></p>
-<p class="has-line-data" data-line-start="22" data-line-end="24">###Position image, for punch/place/wrench/move.<br>
+<p class="has-line-data" data-line-start="22" data-line-end="24">#Position image, for punch/place/wrench/move.<br>
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt=""></p>
-<p class="has-line-data" data-line-start="25" data-line-end="37">##Bot information.<br>
+<p class="has-line-data" data-line-start="25" data-line-end="37">#Bot information.<br>
 <code>getBot()</code> <strong>Local bot.</strong><br>
 <code>getBot(&quot;targetbotname&quot;)</code> <strong>Target bot.</strong><br>
 <code>getBot().name</code> <strong>Gets the bot name.</strong><br>
@@ -38,12 +38,12 @@
 <code>bot.status</code> <strong>Gets the bot status.</strong><br>
 <code>bot.x</code> <strong>Gets bots x position.</strong><br>
 <code>bot.y</code> <strong>Gets bots y position.</strong></p>
-<p class="has-line-data" data-line-start="45" data-line-end="46">###Example usage(1):</p>
+<p class="has-line-data" data-line-start="45" data-line-end="46">#Example usage(1):</p>
 <p class="has-line-data" data-line-start="47" data-line-end="51"><code>for _, bot in pairs(getBots()) do</code><br>
 <code>say(bot.name)</code><br>
 <code>sleep(4000)</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="52" data-line-end="53">###Example usage(2):</p>
+<p class="has-line-data" data-line-start="52" data-line-end="53">#Example usage(2):</p>
 <p class="has-line-data" data-line-start="54" data-line-end="56"><code>say(getBot().name)</code> <strong>Says local bot name.</strong><br>
 <code>say(getBot(&quot;targetbot&quot;).name)</code> <strong>Says target bot name.</strong></p>
 <h2 class="code-line" data-line-start=57 data-line-end=58 ><a id="Tile_information_57"></a>Tile information.</h2>
@@ -60,58 +60,58 @@
 <code>tile.data</code> <strong>Extra tile data, you can check the itemid inside of the vend.</strong><br>
 <code>tile.ready</code> <strong>Check if tree is ready to harvest.</strong><br>
 <code>tile.flags</code> <strong>Tile flags.</strong></p>
-<p class="has-line-data" data-line-start="75" data-line-end="76">###Example usage(1):</p>
+<p class="has-line-data" data-line-start="75" data-line-end="76">#Example usage(1):</p>
 <p class="has-line-data" data-line-start="77" data-line-end="82"><code>for _, tile in pairs(getTiles()) do</code><br>
 <code>if tile.fg == 242 then</code><br>
 <code>say(&quot;Found world lock at:&quot;..tile.x..&quot;,&quot;..tile.y)</code><br>
 <code>end</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="83" data-line-end="84">###Example usage(2):</p>
+<p class="has-line-data" data-line-start="83" data-line-end="84">#Example usage(2):</p>
 <p class="has-line-data" data-line-start="85" data-line-end="90"><code>if getTile(55,23).ready then</code><br>
 <code>say(&quot;Ready to Harvest&quot;)</code><br>
 <code>else</code><br>
 <code>say(&quot;Not ready!&quot;)</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="91" data-line-end="92">##Object information.</p>
+<p class="has-line-data" data-line-start="91" data-line-end="92">#Object information.</p>
 <p class="has-line-data" data-line-start="93" data-line-end="99"><code>getObjects()</code> <strong>Gets objects.</strong><br>
 <code>object.id</code> <strong>Object item id.</strong><br>
 <code>object.count</code> <strong>Object item count.</strong><br>
 <code>object.x</code> <strong>Object x position.</strong><br>
 <code>object.y</code> <strong>Object y position.</strong><br>
 <code>object.oid</code> <strong>Object id.</strong></p>
-<p class="has-line-data" data-line-start="100" data-line-end="101">###Example usage:</p>
+<p class="has-line-data" data-line-start="100" data-line-end="101">##Example usage:</p>
 <p class="has-line-data" data-line-start="102" data-line-end="105"><code>for _, object in pairs(getObjects()) do</code><br>
 <code>object.id</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="106" data-line-end="107">##Player information.</p>
+<p class="has-line-data" data-line-start="106" data-line-end="107">#Player information.</p>
 <p class="has-line-data" data-line-start="108" data-line-end="114"><code>getPlayers()</code> <strong>Gets players.</strong><br>
 <code>player.name</code> <strong>Gets player name.</strong><br>
 <code>player.netid</code> <strong>Gets player netid.</strong><br>
 <code>player.userid</code> <strong>Gets player user id(UID).</strong><br>
 <code>player.country</code> <strong>Gets player country.</strong><br>
 <code>player.x / player.y</code> <strong>On getPlayers() function</strong></p>
-<p class="has-line-data" data-line-start="115" data-line-end="116">###Example usage:</p>
+<h4 class="has-line-data" data-line-start="115" data-line-end="116">Example usage:</p>
 <p class="has-line-data" data-line-start="117" data-line-end="120"><code>for _, player in pairs(getPlayers()) do</code><br>
 <code>players.name</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="121" data-line-end="122">##Inventory information.</p>
+<p class="has-line-data" data-line-start="121" data-line-end="122">#Inventory information.</p>
 <p class="has-line-data" data-line-start="123" data-line-end="127"><code>getInventory()</code> <strong>Gets inventory.</strong><br>
 <code>item.name</code> <strong>Gets item name.</strong><br>
 <code>item.id</code> <strong>Gets item id.</strong><br>
 <code>item.count</code> <strong>Gets item count.</strong></p>
-<p class="has-line-data" data-line-start="128" data-line-end="129">###Example usage:</p>
+<h4 class="has-line-data" data-line-start="128" data-line-end="129">Example usage:</p>
 <p class="has-line-data" data-line-start="130" data-line-end="133"><code>for _, item in pairs(getInventory()) do</code><br>
 <code>item.id</code><br>
 <code>end</code></p>
-<p class="has-line-data" data-line-start="134" data-line-end="137">##Connect information.<br>
+<h2 class="has-line-data" data-line-start="134" data-line-end="137">Connect information.<br>
 <code>disconnect()</code> <strong>Disconnects the bot.</strong><br>
 <code>connect()</code> <strong>Connects the bot to online.</strong></p>
-<p class="has-line-data" data-line-start="138" data-line-end="139">##Clothes information.</p>
+<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.</p>
 <p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all weared items the bot is wearing.</strong><br>
 <code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></p>
-<p class="has-line-data" data-line-start="143" data-line-end="144">##Bool information.</p>
+<h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</p>
 <p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code><br>
-###Bool name List<br>
+#Bool name List<br>
 Select All<br>
 Guest Account<br>
 External<br>
@@ -119,10 +119,10 @@ Auto Access<br>
 Auto Reconnect<br>
 Auto Leave<br>
 Ignore Gems</p>
-<p class="has-line-data" data-line-start="155" data-line-end="158">###Example usages:<br>
+<h4 class="has-line-data" data-line-start="155" data-line-end="158">Example usages:<br>
 <code>setBool(&quot;Auto Reconnect&quot;, false)</code> <strong>Bot will turn off auto reconnect.</strong><br>
 <code>setBool(&quot;Ignore Gems&quot;, true)</code> <strong>Bot will ignore floating gems.</strong></p>
-<p class="has-line-data" data-line-start="159" data-line-end="170">##Raw sendPacket(s) information.<br>
+<h2 class="has-line-data" data-line-start="159" data-line-end="170">Raw sendPacket(s) information.<br>
 <code>pkt = {}</code><br>
 <code>pkt.type --0</code><br>
 <code>pkt.flags --12</code><br>
@@ -133,12 +133,12 @@ Ignore Gems</p>
 <code>pkt.pos2_y --36</code><br>
 <code>pkt.int_x --44</code><br>
 <code>pkt.int_y --48</code></p>
-<p class="has-line-data" data-line-start="171" data-line-end="173">###Example usage:<br>
+<h4 class="has-line-data" data-line-start="171" data-line-end="173">Example usage:<br>
 <code>sendPacketRaw(pkt)</code>  <strong>Sends game packet.</strong></p>
-<p class="has-line-data" data-line-start="174" data-line-end="176">##Signal information.<br>
+<h2 class="has-line-data" data-line-start="174" data-line-end="176">Signal information.<br>
 <code>getSignal()</code> <strong>Returns geiger signal.</strong></p>
-<p class="has-line-data" data-line-start="177" data-line-end="179">##Web information.<br>
+<h2 class="has-line-data" data-line-start="177" data-line-end="179">Web information.<br>
 <code>request(type, url)</code> <strong>Gets text from target url.</strong></p>
-<p class="has-line-data" data-line-start="180" data-line-end="183">###Example usage:<br>
+<h4 class="has-line-data" data-line-start="180" data-line-end="183">Example usage:<br>
 <code>request(&quot;GET&quot;, &quot;https://www.google.com&quot;)</code><br>
 <strong>Possible types; “GET” / “POST” / “PATCH”</strong></p>
