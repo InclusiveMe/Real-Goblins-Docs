@@ -118,7 +118,7 @@ External<br>
 Auto Access<br>
 Auto Reconnect<br>
 Auto Leave<br>
-Ignore Gems</h3></h2>
+Ignore Gems</h3></h2></br>
 <h4 class="has-line-data" data-line-start="155" data-line-end="158">Example usages:<br>
 <code>setBool(&quot;Auto Reconnect&quot;, false)</code> <strong>Bot will turn off auto reconnect.</strong>
 <code>setBool(&quot;Ignore Gems&quot;, true)</code> <strong>Bot will ignore floating gems.</strong></br>
