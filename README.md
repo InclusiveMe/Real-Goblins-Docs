@@ -107,8 +107,8 @@
 <code>disconnect()</code> <strong>Disconnects the bot.</strong><br>
 <code>connect()</code> <strong>Connects the bot to online.</strong></p>
 <h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.<br>
-<p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all weared items the bot is wearing.</strong></h2>
-<code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></p>
+<p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all items the bot is wearing.</strong>
+<code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></h2>
 <h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</p>
 <p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code><br>
 <h3></h3>Bool name List</h3>
