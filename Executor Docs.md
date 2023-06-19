@@ -128,7 +128,8 @@ player.x / player.y -- On getPlayers() function
 ```lua
 for _, player in pairs(getPlayers()) do
 players.name
-end```
+end
+```
 <h2 class="has-line-data" data-line-start="121" data-line-end="122">Inventory information.</h2>
 <p class="has-line-data" data-line-start="123" data-line-end="127"><code>getInventory()</code> <strong>Gets inventory.</strong><br>
 <code>item.name</code> <strong>Gets item name.</strong><br>
