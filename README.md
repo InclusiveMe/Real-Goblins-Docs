@@ -7,6 +7,6 @@ If you have anything to fulfill this, you can direct message me Viktors#3943, or
 
 Creator: Viktor
 
-<img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt="">
+<img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120071751246827550/Screenshot_20230516-121635_Discord.jpg" alt="">
 
 ![](https://badgen.net/badge/Release/1.1/red)
