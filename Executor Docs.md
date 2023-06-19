@@ -1,8 +1,6 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Real_Goblins_documentaries_0"></a>Real Goblins documentaries.</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="21">Common functions.<br>
-```lua
-sleep(1000)
-```
+<code>sleep(time)</code>
 <strong>Example usage:</strong> <em>sleep(1000), bot will sleep for 1 second.</em><br>
 <code>wear(itemid)</code>  <strong>Example usage:</strong> <em>wear(98), bot will wear pickaxe.</em><br>
 <code>drop(itemid)</code> <strong>Example usage:</strong> <em>drop(98), will drop all pickaxes that the bot has.</em><br>
@@ -70,11 +68,14 @@ sleep(1000)
 <code>end</code><br>
 <code>end</code></p>
 <h4 class="has-line-data" data-line-start="83" data-line-end="84">Example usage(2):</h4>
-<p class="has-line-data" data-line-start="85" data-line-end="90"><code>if getTile(55,23).ready then</code><br>
-<code>say(&quot;Ready to Harvest&quot;)</code><br>
-<code>else</code><br>
-<code>say(&quot;Not ready!&quot;)</code><br>
-<code>end</code></p>
+<p class="has-line-data" data-line-start="85" data-line-end="90">
+```lua
+if getTile(55,23).ready then
+say(&quot;Ready to Harvest&quot;)
+else
+say(&quot;Not ready!&quot;)
+end
+```
 <h2 class="has-line-data" data-line-start="91" data-line-end="92">Object information.</h2>
 <p class="has-line-data" data-line-start="93" data-line-end="99"><code>getObjects()</code> <strong>Gets objects.</strong><br>
 <code>object.id</code> <strong>Object item id.</strong><br>
