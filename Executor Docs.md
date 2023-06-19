@@ -125,9 +125,10 @@ player.x / player.y -- On getPlayers() function
 ```
 <h4 class="has-line-data" data-line-start="115" data-line-end="116">Example usage:</h4>
 
-<p class="has-line-data" data-line-start="117" data-line-end="120"><code>for _, player in pairs(getPlayers()) do</code><br>
-<code>players.name</code><br>
-<code>end</code></p>
+```lua
+for _, player in pairs(getPlayers()) do
+players.name
+end```
 <h2 class="has-line-data" data-line-start="121" data-line-end="122">Inventory information.</h2>
 <p class="has-line-data" data-line-start="123" data-line-end="127"><code>getInventory()</code> <strong>Gets inventory.</strong><br>
 <code>item.name</code> <strong>Gets item name.</strong><br>
