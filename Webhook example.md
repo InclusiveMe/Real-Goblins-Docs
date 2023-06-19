@@ -23,6 +23,7 @@ function webHook(description)
 end
 
 -- Usage
-webHook("Viktors#3943") -- Text for webhook goes here!```
+webHook("Viktors#3943") -- Text for webhook goes here!
+```
 
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120148316924153916/image.png" alt=""></p>
