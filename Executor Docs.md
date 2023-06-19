@@ -98,12 +98,15 @@ say("Not ready!")
 end
 ```
 <h2 class="has-line-data" data-line-start="91" data-line-end="92">Object information.</h2>
-<p class="has-line-data" data-line-start="93" data-line-end="99"><code>getObjects()</code> <strong>Gets objects.</strong><br>
-<code>object.id</code> <strong>Object item id.</strong><br>
-<code>object.count</code> <strong>Object item count.</strong><br>
-<code>object.x</code> <strong>Object x position.</strong><br>
-<code>object.y</code> <strong>Object y position.</strong><br>
-<code>object.oid</code> <strong>Object id.</strong></p>
+
+```lua
+getObjects() -- Gets objects.
+object.id -- Object item id.
+object.count -- Object item count.
+object.x -- Object x position.
+object.y -- Object y position.
+object.oid -- Object id.
+```
 <h4 class="has-line-data" data-line-start="100" data-line-end="101">Example usage:</h4>
 <p class="has-line-data" data-line-start="102" data-line-end="105"><code>for _, object in pairs(getObjects()) do</code><br>
 <code>object.id</code><br>
