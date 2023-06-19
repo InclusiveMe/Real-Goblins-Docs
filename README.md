@@ -5,4 +5,6 @@ I'm going to keep updating this git everytime I find something new, or just fix 
 
 If you have anything to fulfill this, you can direct message me Viktors#3943, or just contact me in my server, https://discord.gg/rYkrnZ9dSQ .
 
+Creator: Viktor
+
 ![](https://badgen.net/badge/Release/1.1/red)
