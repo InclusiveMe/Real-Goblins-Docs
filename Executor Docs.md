@@ -44,17 +44,18 @@ bot.status -- Gets the bot status.
 bot.x -- Gets bots x position.
 bot.y -- Gets bots y position.
 ```
+<h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
 
 ```lua
-Example usage(1):
-
 for _, bot in pairs(getBots()) do
 say(bot.name) -- Says bot name.
 sleep(4000)
 end
+```
 
-Example usage(2):
+<h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
 
+```lua
 say(getBot().name) -- Says local bot name.
 say(getBot("targetbot").name) -- Says target bot name.
 ```
