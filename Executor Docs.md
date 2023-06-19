@@ -60,19 +60,23 @@ say(getBot().name) -- Says local bot name.
 say(getBot("targetbot").name) -- Says target bot name.
 ```
 <h2 class="code-line" data-line-start=57 data-line-end=58 ><a id="Tile_information_57"></a>Tile information.</h2>
-<p class="has-line-data" data-line-start="59" data-line-end="64"><code>getTile(x,y).fg</code> <strong>Get x,y tile foreground.</strong><br>
-<code>getTile(x,y).bg</code> <strong>Get x,y tile background.</strong><br>
-<code>getTile(x,y).data</code> <strong>Extra tile data, you can check the itemid inside of the vend.</strong><br>
-<code>getTile(x,y).ready</code> <strong>Check if tree is ready to harvest.</strong><br>
-<code>getTile(x,y).flags</code> <strong>Get tile flags.</strong></p>
-<p class="has-line-data" data-line-start="66" data-line-end="74"><code>getTiles()</code> <strong>Gets all world tiles.</strong><br>
-<code>tile.fg</code> <strong>Tile foreground.</strong><br>
-<code>tile.bg</code> <strong>Tile background.</strong><br>
-<code>tile.x</code> <strong>Tile x position.</strong><br>
-<code>tile.y</code> <strong>Tile y position.</strong><br>
-<code>tile.data</code> <strong>Extra tile data, you can check the itemid inside of the vend.</strong><br>
-<code>tile.ready</code> <strong>Check if tree is ready to harvest.</strong><br>
-<code>tile.flags</code> <strong>Tile flags.</strong></p>
+
+```lua
+getTile(x,y).fg -- Get x,y tile foreground.
+getTile(x,y).bg -- Get x,y tile background.
+getTile(x,y).data -- Extra tile data, you can check the itemid inside of the vend.
+getTile(x,y).ready -- Check if tree is ready to harvest.
+getTile(x,y).flags -- Get tile flags.
+
+getTiles() -- Gets all world tiles.
+tile.fg -- Tile foreground.
+tile.bg -- Tile background.
+tile.x -- Tile x position.
+tile.y -- Tile y position.
+tile.data -- Extra tile data, you can check the itemid inside of the vend.
+tile.ready -- Check if tree is ready to harvest.
+tile.flags -- Tile flags
+```
 <h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
 <p class="has-line-data" data-line-start="77" data-line-end="82">
   
