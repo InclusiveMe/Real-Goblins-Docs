@@ -78,7 +78,7 @@ say(getBot("targetbot").name) -- Says target bot name.
 ```lua  
 for _, tile in pairs(getTiles()) do</code><br>
     if tile.fg == 242 then</code><br>
-       say("Found world lock at"..tile.x..","..tile.y)
+       say("Found world lock at "..tile.x..", "..tile.y)
     end
 end
 ```
