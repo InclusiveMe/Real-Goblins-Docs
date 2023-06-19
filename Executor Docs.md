@@ -37,7 +37,7 @@ getBot().level -- Gets the bot level.
 getBot().captcha -- Gets bot captcha status. – NOT FOR RG.
 getPing() -- Returns bot ping
 
-getBots() -- Local bots
+getBots() -- Local bots.
 bot.name -- Gets the bot name.
 bot.world -- Gets the current world bot is in.
 bot.status -- Gets the bot status.
@@ -45,13 +45,19 @@ bot.x -- Gets bots x position.
 bot.y -- Gets bots y position.
 ```
 <h4 class="has-line-data" data-line-start="45" data-line-end="46">Example usage(1):</h4>
-<p class="has-line-data" data-line-start="47" data-line-end="51"><code>for _, bot in pairs(getBots()) do</code><br>
-<code>say(bot.name)</code><br>
-<code>sleep(4000)</code><br>
-<code>end</code></p>
-<h4 class="has-line-data" data-line-start="52" data-line-end="53">Example usage(2):</h4>
-<p class="has-line-data" data-line-start="54" data-line-end="56"><code>say(getBot().name)</code> <strong>Says local bot name.</strong><br>
-<code>say(getBot(&quot;targetbot&quot;).name)</code> <strong>Says target bot name.</strong></p>
+```lua
+Example usage(1):
+
+for _, bot in pairs(getBots()) do
+say(bot.name) -- Says bot name.
+sleep(4000)
+end
+
+Example usage(2):
+
+say(getBot().name) -- Says local bot name.
+say(getBot("targetbot").name) -- Says target bot name.
+```
 <h2 class="code-line" data-line-start=57 data-line-end=58 ><a id="Tile_information_57"></a>Tile information.</h2>
 <p class="has-line-data" data-line-start="59" data-line-end="64"><code>getTile(x,y).fg</code> <strong>Get x,y tile foreground.</strong><br>
 <code>getTile(x,y).bg</code> <strong>Get x,y tile background.</strong><br>
