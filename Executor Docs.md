@@ -22,7 +22,7 @@ findPath(x,y) -- Example usage: findPath(57, 28), bot will findPath to (58,29)
 ```
 <p class="has-line-data" data-line-start="22" data-line-end="24">Position image, for punch/place/wrench/move.<br>
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt=""></p>
-<p class="has-line-data" data-line-start="25" data-line-end="37">Bot information.<br>
+<h2 class="has-line-data" data-line-start="25" data-line-end="37">Bot information.</h2>
   
 ```lua
 getBot() -- Local bot.
