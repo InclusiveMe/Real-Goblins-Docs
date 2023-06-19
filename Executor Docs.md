@@ -174,29 +174,52 @@ Auto Reconnect
 Auto Leave
 Ignore Gems
 ```
-<h4 class="has-line-data" data-line-start="155" data-line-end="158">Example usages:<br>
-<code>setBool(&quot;Auto Reconnect&quot;, false)</code> <strong>Bot will turn off auto reconnect.</strong>
-<code>setBool(&quot;Ignore Gems&quot;, true)</code> <strong>Bot will ignore floating gems.</strong></br>
+<h4 class="has-line-data" data-line-start="155" data-line-end="158">Example usages:</h4>
+  
+```lua
+setBool("Auto Reconnect", false) -- Bot will turn off auto reconnect.
+setBool("Ignore Gems", true) -- Bot will ignore floating gems.
+```
 <h2 class="has-line-data" data-line-start="159" data-line-end="170">Raw sendPacket(s) information.</h2>
-<code>pkt = {}</code><br>
-<code>pkt.type --0</code><br>
-<code>pkt.flags --12</code><br>
-<code>pkt.int_data --20</code><br>
-<code>pkt.pos_x --24</code><br>
-<code>pkt.pos_y --28</code><br>
-<code>pkt.pos2_x --32</code><br>
-<code>pkt.pos2_y --36</code><br>
-<code>pkt.int_x --44</code><br>
-<code>pkt.int_y --48</code></p>
-<h4 class="has-line-data" data-line-start="171" data-line-end="173">Example usage:<br>
-<code>sendPacketRaw(pkt)</code>  <strong>Sends game packet.</strong></p>
-<h2 class="has-line-data" data-line-start="174" data-line-end="176">Signal information.<br>
-<code>getSignal()</code> <strong>Returns geiger signal.</strong></p>
-<h2 class="has-line-data" data-line-start="177" data-line-end="179">Web information.<br>
-<code>request(type, url)</code> <strong>Gets text from target url.</strong></p>
-<h4 class="has-line-data" data-line-start="180" data-line-end="183">Example usage:<br>
-<code>request(&quot;GET&quot;, &quot;https://www.google.com&quot;)</code><br>
-<strong>Possible types; “GET” / “POST” / “PATCH”</strong></p>
+
+```lua
+pkt = {}
+pkt.type -- 0
+pkt.flags -- 12
+pkt.int_data -- 20
+pkt.pos_x -- 24
+pkt.pos_y -- 28
+pkt.pos2_x -- 32
+pkt.pos2_y -- 36
+pkt.int_x -- 44
+pkt.int_y -- 48
+```
+<h4 class="has-line-data" data-line-start="171" data-line-end="173">Example usage:</h4>
+
+```lua
+sendPacketRaw(pkt) -- Sends game packet.
+```
+<h2 class="has-line-data" data-line-start="174" data-line-end="176">Signal information.</h2>
+
+```lua
+getSignal() -- Returns geiger signal.
+```
+<h2 class="has-line-data" data-line-start="177" data-line-end="179">Web information.</h2>
+
+```lua
+request(type, url) -- Gets text from target url.
+```
+<h4 class="has-line-data" data-line-start="180" data-line-end="183">Example usage:</h4>
+
+```lua
+request("GET", "https://www.google.com")
+```
+
+<h4 class="has-line-data" data-line-start="180" data-line-end="183">Possible types:</h4>
+
+```lua
+"GET” / “POST” / “PATCH" .
+```
 
 ---
 This will get fulfilled later on. - Viktors
