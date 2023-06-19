@@ -44,7 +44,7 @@ bot.status -- Gets the bot status.
 bot.x -- Gets bots x position.
 bot.y -- Gets bots y position.
 ```
-<h4 class="has-line-data" data-line-start="45" data-line-end="46">Example usage(1):</h4>
+
 ```lua
 Example usage(1):
 
