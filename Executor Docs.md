@@ -114,13 +114,17 @@ object.id
 end
 ```
 <h2 class="has-line-data" data-line-start="106" data-line-end="107">Player information.</h2>
-<p class="has-line-data" data-line-start="108" data-line-end="114"><code>getPlayers()</code> <strong>Gets players.</strong><br>
-<code>player.name</code> <strong>Gets player name.</strong><br>
-<code>player.netid</code> <strong>Gets player netid.</strong><br>
-<code>player.userid</code> <strong>Gets player user id(UID).</strong><br>
-<code>player.country</code> <strong>Gets player country.</strong><br>
-<code>player.x / player.y</code> <strong>On getPlayers() function</strong></p>
+
+```lua
+getPlayers() -- Gets players.
+player.name -- Gets player name.
+player.netid -- Gets player netid.
+player.userid -- Gets player user id(UID).
+player.country -- Gets player country.
+player.x / player.y -- On getPlayers() function
+```
 <h4 class="has-line-data" data-line-start="115" data-line-end="116">Example usage:</h4>
+
 <p class="has-line-data" data-line-start="117" data-line-end="120"><code>for _, player in pairs(getPlayers()) do</code><br>
 <code>players.name</code><br>
 <code>end</code></p>
