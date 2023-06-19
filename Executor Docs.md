@@ -2,31 +2,24 @@
 <p class="has-line-data" data-line-start="2" data-line-end="21">Common functions.<br>
   
 ```lua
-sleep(time)
+sleep(time) -- Bot will sleep for that time (millisecond)
+wear(itemid) -- Example usage: wear(98), bot will wear pickaxe.
+drop(itemid) -- Example usage: drop(98), will drop all pickaxes that the bot has.
+enter() -- Bot will enter an door/portal that the bot is on.
+punch(x,y) -- Example usage: punch(1, 0), punch block on the right side of bot.
+wrench(x,y) -- Example usage: Wrench(0, -1), wrench block above.
+move(x,y) -- Example usage: move(1, 0) go to right (1) time.
+place(itemid,x,y) -- Example usage: place(2, 1, 0), bot places dirt on right side.
+say("hi") -- Example usage: say("My discord is Viktors#3943")
+sendPacket(2,"action") -- Example usage: sendPacket(3, “action|join_request\nname|” … World … \ninvitedWorld|0").
+collectSet(true/false, range) -- Example usage: collectSet(true/false, 3), turns on auto collect.
+collect(itemid, range) -- Example usage: collect(98, 3), collects the item in the range.
+findItem(itemid) -- Example usage: findItem(2), will show how much dirt bot has.
+addBot("user","pass") -- Adds bot to the list.
+addBot("user","pass","ip:port:user:pass") -- Adds bot to the list with proxy.
+removeBot("user") -- Removes bot by the name from the list.
+findPath(x,y) -- Example usage: findPath(57, 28), bot will findPath to (58,29)
 ```
-<strong>Example usage:</strong> 
-
-```lua
-sleep(1000)
-```
-, bot will sleep for 1 second.</em><br>
-<code>wear(itemid)</code>  <strong>Example usage:</strong> <em>wear(98), bot will wear pickaxe.</em><br>
-<code>drop(itemid)</code> <strong>Example usage:</strong> <em>drop(98), will drop all pickaxes that the bot has.</em><br>
-<code>enter()</code>  <strong>Enters an door/portal that the bot is on.</strong><br>
-<code>punch(x,y)</code> <strong>Example usage:</strong> <em>punch(1, 0), punch block on the right side of bot.</em><br>
-<code>wrench(x,y)</code> <strong>Example usage:</strong> <em>Wrench(0, -1), wrench block above.</em><br>
-<code>move(x,y)</code> <strong>Example usage:</strong> <em>move(1, 0) go to right (1) time.</em><br>
-<code>place(itemid,x,y)</code> <strong>Example usage:</strong> <em>place(2, 1, 0), bot places dirt on right side.</em><br>
-<code>say(&quot;text&quot;)</code> <strong>Example usage:</strong> <em>say(&quot;My discord is <strong>Viktors#3943</strong>&quot;)</em><br>
-<code>sendPacket(2,&quot;action&quot;)</code> <strong>Example usage:</strong> <em>sendPacket(3, “action|join_request\nname|” … World … \ninvitedWorld|0&quot;).</em><br>
-<code>collectSet(true, range)</code>  <strong>Example usage:</strong> <em>collectSet(true/false, 3), turns on auto collect.</em><br>
-<code>collect(range)</code>  <strong>Example usage:</strong> <em>collect(3), send collect packet.</em><br>
-<code>collect(itemid, range)</code>  <strong>Example usage:</strong> <em>collect(98, 3), collects the item in the range.</em><br>
-<code>findItem(itemid)</code> <strong>Example usage:</strong> <em>findItem(2), will show how much dirt bot has.</em><br>
-<code>addBot(&quot;user&quot;,&quot;pass&quot;)</code> <strong>Adds bot to the list.</strong><br>
-<code>addBot(&quot;user&quot;,&quot;pass&quot;,&quot;ip:port:user:pass&quot;)</code> <strong>Adds bot to the list with proxy.</strong><br>
-<code>removeBot(&quot;user&quot;)</code> <strong>Removes bot by the name from the list.</strong><br>
-<code>findPath(x,y)</code> <strong>Example usage:</strong> <em>findPath(57, 28), bot will findPath to (58,29)</em></p>
 <p class="has-line-data" data-line-start="22" data-line-end="24">Position image, for punch/place/wrench/move.<br>
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt=""></p>
 <p class="has-line-data" data-line-start="25" data-line-end="37">Bot information.<br>
