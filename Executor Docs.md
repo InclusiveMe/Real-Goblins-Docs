@@ -1,5 +1,4 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Real_Goblins_documentaries_0"></a>Real Goblins documentaries.</h1>
-<h2 class="has-line-data" data-line-start="2" data-line-end="21">Common functions.</h2>
+<h1 class="has-line-data" data-line-start="2" data-line-end="21">Common functions.</h1>
   
 ```lua
 sleep(time) -- Bot will sleep for that time (millisecond)
