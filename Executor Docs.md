@@ -131,10 +131,13 @@ players.name
 end
 ```
 <h2 class="has-line-data" data-line-start="121" data-line-end="122">Inventory information.</h2>
-<p class="has-line-data" data-line-start="123" data-line-end="127"><code>getInventory()</code> <strong>Gets inventory.</strong><br>
-<code>item.name</code> <strong>Gets item name.</strong><br>
-<code>item.id</code> <strong>Gets item id.</strong><br>
-<code>item.count</code> <strong>Gets item count.</strong></p>
+
+```lua
+getInventory() -- Gets inventory.
+item.name -- Gets item name.
+item.id -- Gets item id.
+item.count -- Gets item count.
+```
 <h4 class="has-line-data" data-line-start="128" data-line-end="129">Example usage:</h4>
 <p class="has-line-data" data-line-start="130" data-line-end="133"><code>for _, item in pairs(getInventory()) do</code><br>
 <code>item.id</code><br>
