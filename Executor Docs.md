@@ -71,9 +71,9 @@
 <p class="has-line-data" data-line-start="85" data-line-end="90">
 ```lua
 if getTile(55,23).ready then
-say(&quot;Ready to Harvest&quot;)
+say("Ready to Harvest")
 else
-say(&quot;Not ready!&quot;)
+say("Not ready!")
 end
 ```
 <h2 class="has-line-data" data-line-start="91" data-line-end="92">Object information.</h2>
