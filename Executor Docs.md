@@ -53,7 +53,7 @@ sleep(4000)
 end
 ```
 
-<h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
+<h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(2):</h4>
 
 ```lua
 say(getBot().name) -- Says local bot name.
