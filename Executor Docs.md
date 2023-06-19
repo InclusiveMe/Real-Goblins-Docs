@@ -1,7 +1,15 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Real_Goblins_documentaries_0"></a>Real Goblins documentaries.</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="21">Common functions.<br>
-<code>sleep(time)</code>
-<strong>Example usage:</strong> <em>sleep(1000), bot will sleep for 1 second.</em><br>
+  
+```lua
+sleep(time)
+```
+<strong>Example usage:</strong> 
+
+```lua
+sleep(1000)
+```
+, bot will sleep for 1 second.</em><br>
 <code>wear(itemid)</code>  <strong>Example usage:</strong> <em>wear(98), bot will wear pickaxe.</em><br>
 <code>drop(itemid)</code> <strong>Example usage:</strong> <em>drop(98), will drop all pickaxes that the bot has.</em><br>
 <code>enter()</code>  <strong>Enters an door/portal that the bot is on.</strong><br>
