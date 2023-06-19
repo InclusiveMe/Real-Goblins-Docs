@@ -62,11 +62,15 @@
 <code>tile.ready</code> <strong>Check if tree is ready to harvest.</strong><br>
 <code>tile.flags</code> <strong>Tile flags.</strong></p>
 <h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
-<p class="has-line-data" data-line-start="77" data-line-end="82"><code>for _, tile in pairs(getTiles()) do</code><br>
-<code>if tile.fg == 242 then</code><br>
-<code>say(&quot;Found world lock at:&quot;..tile.x..&quot;,&quot;..tile.y)</code><br>
-<code>end</code><br>
-<code>end</code></p>
+<p class="has-line-data" data-line-start="77" data-line-end="82">
+  
+```lua  
+for _, tile in pairs(getTiles()) do</code><br>
+    if tile.fg == 242 then</code><br>
+       say("Found world lock at"..tile.x..","..tile.y)
+    end
+end
+```
 <h4 class="has-line-data" data-line-start="83" data-line-end="84">Example usage(2):</h4>
 <p class="has-line-data" data-line-start="85" data-line-end="90">
   
