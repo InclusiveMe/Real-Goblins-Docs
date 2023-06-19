@@ -152,22 +152,28 @@ end
 disconnect() -- Disconnects the bot.
 connect() -- Connects the bot to online.
 ```
-<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.<br>
+<h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.</h2>
   
 ```lua
 getClothes() -- Returns all items the bot is wearing.
 findClothes(itemid) -- Returns if the item is worn already or not.
 ```
-<h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.<br>
-<p class="has-line-data" data-line-start="145" data-line-end="154"><code>setBool(&quot;boolname &quot;, true/false)</code>
-<h3>Bool name List<br> // MOST ARE NOT FOR RG. <br>
-Select All<br>
-Guest Account<br>
-External<br>
-Auto Access<br>
-Auto Reconnect<br>
-Auto Leave<br>
-Ignore Gems</h3></h2></br>
+<h2 class="has-line-data" data-line-start="143" data-line-end="144">Bool information.</h2>
+
+```lua
+setBool("boolname", true/false)
+```
+<h3>Bool name List // MOST ARE NOT FOR RG.</h3>
+
+```lua
+Select All
+Guest Account
+External
+Auto Access
+Auto Reconnect
+Auto Leave
+Ignore Gems
+```
 <h4 class="has-line-data" data-line-start="155" data-line-end="158">Example usages:<br>
 <code>setBool(&quot;Auto Reconnect&quot;, false)</code> <strong>Bot will turn off auto reconnect.</strong>
 <code>setBool(&quot;Ignore Gems&quot;, true)</code> <strong>Bot will ignore floating gems.</strong></br>
