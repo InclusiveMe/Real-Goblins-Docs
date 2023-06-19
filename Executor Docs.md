@@ -1,7 +1,7 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Real_Goblins_documentaries_0"></a>Real Goblins documentaries.</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="21">Common functions.<br>
 ```lua
-sleep(time)
+sleep(1000)
 ```
 <strong>Example usage:</strong> <em>sleep(1000), bot will sleep for 1 second.</em><br>
 <code>wear(itemid)</code>  <strong>Example usage:</strong> <em>wear(98), bot will wear pickaxe.</em><br>
