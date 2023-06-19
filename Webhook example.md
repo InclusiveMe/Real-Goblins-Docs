@@ -1,27 +1,28 @@
 <h1> Basic webhook </h1>
 
-<code>webhook = "" -- Webhook url goes here!</code><br>
+```lua
+webhook = "" -- Webhook URL goes here!
 
-<code>function webHook(description)</code><br>
-    <code>local script = [[</code><br>
-        <code>$webHookUrl = "]]..webhook..[["</code><br>
-        <code>$description = "]]..description..[["</code><br>
-       <code> $embedObject = @{</code><br>
-            <code>description = $description</code><br>
-        <code>}</code><br>
-        <code>$embedArray = @($embedObject)</code><br>
-        <code>$payload = @{</code><br>
-            <code>embeds = $embedArray</code><br>
-        <code>}</code><br>
-        <code>[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12</code><br>
-        <code>Invoke-RestMethod -Uri $webHookUrl -Body ($payload | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'</code><br>
-    <code>]]</code><br>
-    <code>local pipe = io.popen("powershell -command -", "w")</code><br>
-    <code>pipe:write(script)</code><br>
-    <code>pipe:close()</code><br>
-<code>end</code><br>
+function webHook(description)
+    local script = [[
+        $webHookUrl = "]]..webhook..[["
+        $description = "]]..description..[["
+        $embedObject = @{
+            description = $description
+        }
+        $embedArray = @($embedObject)
+        $payload = @{
+            embeds = $embedArray
+        }
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        Invoke-RestMethod -Uri $webHookUrl -Body ($payload | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
+    ]]
+    local pipe = io.popen("powershell -command -", "w")
+    pipe:write(script)
+    pipe:close()
+end
 
-<strong> -- Usage</strong><br>
-<code>webHook("Viktors#3943")</code><strong>-- The text you want to appear in webhook goes here!</strong>
+-- Usage
+webHook("Viktors#3943") -- Text for webhook goes here!```
 
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120148316924153916/image.png" alt=""></p>
