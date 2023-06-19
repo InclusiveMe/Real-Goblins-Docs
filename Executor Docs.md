@@ -108,9 +108,12 @@ object.y -- Object y position.
 object.oid -- Object id.
 ```
 <h4 class="has-line-data" data-line-start="100" data-line-end="101">Example usage:</h4>
-<p class="has-line-data" data-line-start="102" data-line-end="105"><code>for _, object in pairs(getObjects()) do</code><br>
-<code>object.id</code><br>
-<code>end</code></p>
+
+```lua
+for _, object in pairs(getObjects()) do
+object.id
+end
+```
 <h2 class="has-line-data" data-line-start="106" data-line-end="107">Player information.</h2>
 <p class="has-line-data" data-line-start="108" data-line-end="114"><code>getPlayers()</code> <strong>Gets players.</strong><br>
 <code>player.name</code> <strong>Gets player name.</strong><br>
