@@ -1,12 +1,12 @@
--- PLANT EXAMPEL FOR MY REPO   
+-- PLANT EXAMPLE FOR MY REPO   
 
 Plant__Settings = {
-    SeedId = 4584,
+    SeedId = 4585,
     PlantDelay = 170
 }
 
 Farm__Settings = {
-    FarmList = "",
+    FarmList = {"", ""},
     DoorId = ""
 }
 
@@ -57,9 +57,11 @@ function Plant()
 end       
 
 function JoinWorld()
-    for i, #Farm__Settings.FarmList do
-    sendPacket(3, "action|join_request\nname|" .. Farm__Settings.FarmList[i] .. "|" .. Farm__Settings.DoorId .. "\ninvitedWorld|0")   
+FarmList = Farm__Settings.FarmList
+    for i = 1, #FarmList do
+    sendPacket(3, "action|join_request\nname|" .. FarmList[i] .. "|" .. Farm__Settings.DoorId .. "\ninvitedWorld|0")   
     sleep(5500)
+    Plant()
     end    
 end
 
@@ -85,3 +87,7 @@ function CheckInventory()
         JoinStorage()
     end    
 end        
+
+while true do 
+   JoinStorage()
+ end
