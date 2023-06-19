@@ -69,6 +69,7 @@
 <code>end</code></p>
 <h4 class="has-line-data" data-line-start="83" data-line-end="84">Example usage(2):</h4>
 <p class="has-line-data" data-line-start="85" data-line-end="90">
+  
 ```lua
 if getTile(55,23).ready then
 say("Ready to Harvest")
