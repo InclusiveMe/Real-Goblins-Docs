@@ -139,12 +139,19 @@ item.id -- Gets item id.
 item.count -- Gets item count.
 ```
 <h4 class="has-line-data" data-line-start="128" data-line-end="129">Example usage:</h4>
-<p class="has-line-data" data-line-start="130" data-line-end="133"><code>for _, item in pairs(getInventory()) do</code><br>
-<code>item.id</code><br>
-<code>end</code></p>
+
+```lua
+for _, item in pairs(getInventory()) do
+item.id
+end
+```
+
 <h2 class="has-line-data" data-line-start="134" data-line-end="137">Connect information.<br>
-<code>disconnect()</code> <strong>Disconnects the bot.</strong><br>
-<code>connect()</code> <strong>Connects the bot to online.</strong></p>
+  
+```lua
+disconnect() -- Disconnects the bot.
+connect() -- Connects the bot to online.
+```
 <h2 class="has-line-data" data-line-start="138" data-line-end="139">Clothes information.<br>
 <p class="has-line-data" data-line-start="140" data-line-end="142"><code>getClothes()</code> <strong>Returns all items the bot is wearing.</strong>
 <code>findClothes(itemid)</code> <strong>Returns if the item is worn already or not.</strong></h2>
