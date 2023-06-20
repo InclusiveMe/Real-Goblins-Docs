@@ -80,8 +80,8 @@ tile.flags -- Tile flags
 <p class="has-line-data" data-line-start="77" data-line-end="82">
   
 ```lua  
-for _, tile in pairs(getTiles()) do</code><br>
-    if tile.fg == 242 then</code><br>
+for _, tile in pairs(getTiles()) do
+    if tile.fg == 242 then
        say("Found world lock at "..tile.x..", "..tile.y)
     end
 end
@@ -221,5 +221,11 @@ request("GET", "https://www.google.com")
 "GET” / “POST” / “PATCH" .
 ```
 
+<h2 class="has-line-data" data-line-start="180" data-line-end="183">Fishing information.</h2>
+
+```lua
+startFishing(baitid) -- Bot will automatically start fishing using the bait id.
+stopFishing() -- Bot will stop fishing.
+```
 ---
 This will get fulfilled later on. - Viktors
