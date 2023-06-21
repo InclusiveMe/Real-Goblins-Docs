@@ -1,24 +1,24 @@
 <h1 class="has-line-data" data-line-start="2" data-line-end="21">Common functions.</h1>
   
-```lua
-sleep(time) -- Bot will sleep for that time (millisecond)
-wear(itemid) -- Example usage: wear(98), bot will wear pickaxe.
-drop(itemid) -- Example usage: drop(98), will drop all pickaxes that the bot has.
-enter() -- Bot will enter an door/portal that the bot is on.
-punch(x,y) -- Example usage: punch(1, 0), punch block on the right side of bot.
-wrench(x,y) -- Example usage: Wrench(0, -1), wrench block above.
-move(x,y) -- Example usage: move(1, 0) go to right (1) time.
-place(itemid,x,y) -- Example usage: place(2, 1, 0), bot places dirt on right side.
-say("hi") -- Example usage: say("My discord is Viktors#3943")
-sendPacket(2,"action") -- Example usage: sendPacket(3, “action|join_request\nname|” … World … \ninvitedWorld|0").
-collectSet(true/false, range) -- Example usage: collectSet(true/false, 3), turns on auto collect.
-collect(itemid, range) -- Example usage: collect(98, 3), collects the item in the range.
-findItem(itemid) -- Example usage: findItem(2), will show how much dirt bot has.
-addBot("user","pass") -- Adds bot to the list.
-addBot("user","pass","ip:port:user:pass") -- Adds bot to the list with proxy.
-removeBot("user") -- Removes bot by the name from the list.
-findPath(x,y) -- Example usage: findPath(57, 28), bot will findPath to (58,29)
-```
+|                  Function                 	|                                         Description                                        	|
+|:-----------------------------------------:	|:------------------------------------------------------------------------------------------:	|
+| sleep(time)                               	| Bot will sleep for that time (milliseconds)                                                	|
+|                wear(itemid)               	| Example usage: wear(98), bot will wear pickaxe.                                            	|
+| drop(itemid)                              	| Example usage: drop(98), will drop all pickaxes that the bot has.                          	|
+| enter()                                   	| Bot will enter an door/portal that the bot is on.                                          	|
+| punch(x,y)                                	| Example usage: punch(1, 0), punch block on the right side of bot.                          	|
+| wrench(x,y)                               	| Example usage: Wrench(0, -1), wrench block above.                                          	|
+| move(x,y)                                 	| Example usage: move(1, 0) go to right (1) time.                                            	|
+| place(itemid,x,y)                         	| Example usage: place(2, 1, 0), bot places dirt on right side.                              	|
+| say("hi")                                 	| Example usage: say("My discord is Viktors#3943")                                           	|
+| sendPacket(2,"action")                    	| Example usage: sendPacket(3, “action\|join_request\nname\|” … World … \ninvitedWorld\|0"). 	|
+| collectSet(true/false, range)             	| Example usage: collectSet(true/false, 3), turns on auto collect.                           	|
+| collect(itemid, range)                    	| Example usage: collect(98, 3), collects the item in the range.                             	|
+| findItem(itemid)                          	| Example usage: findItem(2), will show how much dirt bot has.                               	|
+| addBot("user","pass")                     	| Adds bot to the list.                                                                      	|
+| addBot("user","pass","ip:port:user:pass") 	| Adds bot to the list with proxy.                                                           	|
+| removeBot("user")                         	| Example usage: removeBot(getBot().name)                                                    	|
+| findPath(x,y)                             	| Example usage: findPath(57, 28), bot will findPath to (58,29)                              	|
 <p class="has-line-data" data-line-start="22" data-line-end="24">Position image, for punch/place/wrench/move.<br>
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt=""></p>
 <h2 class="has-line-data" data-line-start="25" data-line-end="37">Bot information.</h2>
