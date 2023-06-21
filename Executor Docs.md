@@ -23,26 +23,25 @@
 <img src="https://cdn.discordapp.com/attachments/1009152912628404266/1120072679651819530/IMG_9451.png" alt=""></p>
 <h2 class="has-line-data" data-line-start="25" data-line-end="37">Bot information.</h2>
   
-```lua
-getBot() -- Local bot.
-getBot("targetbotname") -- Target bot.
-getBot().name -- Gets the bot name.
-getBot().world -- Gets the current world bot is in.
-getBot().status -- Gets the bot status.
-getBot().x --Gets bots x position.
-getBot().y -- Gets bots y position.
-getBot().slots -- Gets the bot inventory slot amount.
-getBot().level -- Gets the bot level.
-getBot().captcha -- Gets bot captcha status. – NOT FOR RG.
-getPing() -- Returns bot ping
-
-getBots() -- Local bots.
-bot.name -- Gets the bot name.
-bot.world -- Gets the current world bot is in.
-bot.status -- Gets the bot status.
-bot.x -- Gets bots x position.
-bot.y -- Gets bots y position.
-```
+|         Function        	|               Description              	|
+|:-----------------------:	|:--------------------------------------:	|
+| getBot()                	| Local bot.                             	|
+| getBot("targetbotname") 	| Target bot.                            	|
+| getBot().name           	| Gets the bot name.                     	|
+| getBot().world          	| Gets the current world bot is in.      	|
+| getBot().status         	| Gets the bot status.                   	|
+| getBot().x              	| Gets bots x position.                  	|
+| getBot().y              	| Gets bots y position.                  	|
+| getBot().slots          	| Gets the bot inventory slot amount.    	|
+| getBot().level          	| Gets the bot level.                    	|
+| getBot().captcha        	| Gets bot captcha status. – NOT FOR RG. 	|
+| getPing()               	| Returns bot ping                       	|
+| getBots()               	| Local bots.                            	|
+| bot.name                	| Gets the bot name.                     	|
+| bot.world               	| Gets the current world bot is in.      	|
+| bot.status              	| Gets the bot status.                   	|
+| bot.x                   	| Gets bots x position.                  	|
+| bot.y                   	| Gets bots y position.                  	|
 <h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
 
 ```lua
