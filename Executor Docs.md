@@ -59,22 +59,20 @@ say(getBot("targetbot").name) -- Says target bot name.
 ```
 <h2 class="code-line" data-line-start=57 data-line-end=58 ><a id="Tile_information_57"></a>Tile information.</h2>
 
-```lua
-getTile(x,y).fg -- Get x,y tile foreground.
-getTile(x,y).bg -- Get x,y tile background.
-getTile(x,y).data -- Extra tile data, you can check the itemid inside of the vend.
-getTile(x,y).ready -- Check if tree is ready to harvest.
-getTile(x,y).flags -- Get tile flags.
-
-getTiles() -- Gets all world tiles.
-tile.fg -- Tile foreground.
-tile.bg -- Tile background.
-tile.x -- Tile x position.
-tile.y -- Tile y position.
-tile.data -- Extra tile data, you can check the itemid inside of the vend.
-tile.ready -- Check if tree is ready to harvest.
-tile.flags -- Tile flags
-```
+|      Function      	|                          Description                          	|
+|:------------------:	|:-------------------------------------------------------------:	|
+| getTile(x,y).fg    	| Get x,y tile foreground.                                      	|
+| getTile(x,y).bg    	| Get x,y tile background.                                      	|
+| getTile(x,y).data  	| Extra tile data, you can check the itemid inside of the vend. 	|
+| getTile(x,y).ready 	| Check if tree is ready to harvest.                            	|
+| getTile(x,y).flags 	| Get tile flags.                                               	|
+| getTiles()         	| Gets all world tiles.                                         	|
+| tile.fg            	| Tile foreground.                                              	|
+| tile.x             	| Tile x position.                                              	|
+| tile.y             	| Tile y position.                                              	|
+| tile.data          	| Extra tile data, you can check the itemid inside of the vend. 	|
+| tile.ready         	| Returns bot ping.                                             	|
+| tile.flags         	| Tile flags.                                                   	|
 <h4 class="has-line-data" data-line-start="75" data-line-end="76">Example usage(1):</h4>
 <p class="has-line-data" data-line-start="77" data-line-end="82">
   
