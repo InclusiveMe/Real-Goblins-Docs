@@ -13,7 +13,7 @@
 | say("hi")                                 	| Example usage: say("My discord is Viktors#3943")                                           	|
 | sendPacket(2,"action")                    	| Example usage: sendPacket(3, “action\|join_request\nname\|” … World … \ninvitedWorld\|0"). 	|
 | collectSet(true/false, range)             	| Example usage: collectSet(true/false, 3), turns on auto collect.                           	|
-| collect(itemid, range)                    	| Example usage: collect(98, 3), collects the item in the range.                             	|
+| collect(range,itemid)                    	| Example usage: collect(3, 98), collects the item in the range.                              	|
 | findItem(itemid)                          	| Example usage: findItem(2), will show how much dirt bot has.                               	|
 | addBot("user","pass")                     	| Adds bot to the list.                                                                      	|
 | addBot("user","pass","ip:port:user:pass") 	| Adds bot to the list with proxy.                                                           	|
