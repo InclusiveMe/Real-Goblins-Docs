@@ -7,13 +7,13 @@
 | drop(itemid)                              	| Example usage: drop(98), will drop all pickaxes that the bot has.                          	|
 | enter()                                   	| Bot will enter an door/portal that the bot is on.                                          	|
 | punch(x,y)                                	| Example usage: punch(1, 0), punch block on the right side of bot.                          	|
-| wrench(x,y)                               	| Example usage: Wrench(0, -1), wrench block above.                                          	|
+| wrench(x,y)                               	| Example usage: wrench(0, -1), wrench block above.                                          	|
 | move(x,y)                                 	| Example usage: move(1, 0) go to right (1) time.                                            	|
 | place(itemid,x,y)                         	| Example usage: place(2, 1, 0), bot places dirt on right side.                              	|
 | say("hi")                                 	| Example usage: say("My discord is Viktors#3943")                                           	|
 | sendPacket(2,"action")                    	| Example usage: sendPacket(3, “action\|join_request\nname\|” … World … \ninvitedWorld\|0"). 	|
 | collectSet(true/false, range)             	| Example usage: collectSet(true/false, 3), turns on auto collect.                           	|
-| collect(range,itemid)                    	| Example usage: collect(3, 98), collects the item in the range.                              	|
+| collect(range,itemid)                    	  | Example usage: collect(3, 98), collects the item in the range.                              |
 | findItem(itemid)                          	| Example usage: findItem(2), will show how much dirt bot has.                               	|
 | addBot("user","pass")                     	| Adds bot to the list.                                                                      	|
 | addBot("user","pass","ip:port:user:pass") 	| Adds bot to the list with proxy.                                                           	|
@@ -95,14 +95,14 @@ end
 ```
 <h2 class="has-line-data" data-line-start="91" data-line-end="92">Object information.</h2>
 
-```lua
-getObjects() -- Gets objects.
-object.id -- Object item id.
-object.count -- Object item count.
-object.x -- Object x position.
-object.y -- Object y position.
-object.oid -- Object id.
-```
+|   Function   	|     Description    	|
+|:------------:	|:------------------:	|
+| getObjects() 	| Gets objects.      	|
+| object.id    	| Object item id.    	|
+| object.count 	| Object item count. 	|
+| object.x     	| Object x position. 	|
+| object.y     	| Object y position. 	|
+| object.oid   	| Object id.         	|
 <h4 class="has-line-data" data-line-start="100" data-line-end="101">Example usage:</h4>
 
 ```lua
